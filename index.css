@@ -1,0 +1,77 @@
+
+body {
+    font-family: 'galada', cursive;
+    background-color: rgb(183, 213, 208);
+    margin-top: -30px;
+}
+
+#title {
+    color: rgb(31, 2, 2);
+    font-family: 'Chela One', cursive;
+    margin: auto;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+#description {
+    color: black;
+    font-family: 'Spirax', cursive;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}  
+
+#survey-form {
+    max-width: 60%;
+    color: rgb(0, 0, 0);
+    background-color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+div {
+    text-align: center; 
+}
+
+p {
+    text-align: right;
+}
+
+#name {
+    text-align: auto;
+}
+
+#email {
+    text-align: left;
+}
+
+#number {
+    text-align: left;
+}
+
+#name-label {
+    text-align: auto;
+}
+
+#email-label {
+    text-align: auto;  
+}
+
+#number-label {
+    text-align: auto;
+}
+
+#dropdown {
+    text-align: auto;
+}
+
+#submit {
+    text-align: auto;
+
+}
