@@ -1,13 +1,13 @@
 
 body {
     font-family: 'galada', cursive;
-    background-color: rgb(66, 133, 244);
+    background-color: rgb(96, 23, 30);
     margin-top: -30px;
 }
 
 #title {
-    color: rgb(31, 2, 2);
-    font-family: 'Chela One', cursive;
+    color: rgb(237, 195, 28);
+    font-family: 'Muli', sans-serif;
     margin: auto;
     text-align: center;
     padding-top: 60px;
@@ -45,7 +45,7 @@ body {
     margin: auto;
     border-radius: 20px;
     border-style: solid;
-    border-color: pink;
+    border-color: rgb(237, 195, 28);
     padding-top: 10px;
     padding-bottom: 10px;
 }
