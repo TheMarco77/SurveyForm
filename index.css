@@ -1,7 +1,7 @@
 
 body {
     font-family: 'galada', cursive;
-    background-color: rgb(183, 213, 208);
+    background-color: rgb(66, 133, 244);
     margin-top: -30px;
 }
 
@@ -22,17 +22,32 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
 }  
+/* Mobile */
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 1px;
+}
+
+/* Desktop */
+@media screen and (min-width: 750px) {
+    .wrapper {
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 30px;
+    }
+}
 
 #survey-form {
     max-width: 60%;
     color: rgb(0, 0, 0);
-    background-color: whitesmoke;
+    background-color: white;
     font-family: 'Montserrat', sans-serif;
     margin: auto;
-    border-radius: 10px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: pink;
     padding-top: 10px;
     padding-bottom: 10px;
-
 }
 
 div {
@@ -52,19 +67,25 @@ p {
 }
 
 #number {
-    text-align: left;
+    text-align: auto;
 }
 
 #name-label {
-    text-align: auto;
+    display: grid;
+    text-align: right;
+    align-items: center;
 }
 
 #email-label {
-    text-align: auto;  
+    display: grid;
+    text-align: right;
+    align-items: center; 
 }
 
 #number-label {
-    text-align: auto;
+    display: grid;
+    text-align: right;
+    align-items: center;
 }
 
 #dropdown {
@@ -73,5 +94,6 @@ p {
 
 #submit {
     text-align: auto;
+    background-color: rgb(66, 133, 244);
 
 }

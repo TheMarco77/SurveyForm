@@ -12,21 +12,23 @@
 
 <form action="#" method="post" id="survey-form" name="survey-form">
 <p id="description">Survey Form project for Free Code Camp.<br><br>
-<div>
-<label id="name-label">*Name:</label>
-<input type="text" id="name" name="name" placeholder="Enter your name" required/>
-<br><br>
 
+<div class="wrapper">
+    
+<label id="name-label">*Name:</label>
+<input type="text" id="name" name="name" placeholder="Full Name (Required)" required/>
+<br><br>
 <label id="email-label">*Email:</label>
 <input type="email" id="email" name="email" placeholder="Enter your Email" required/>
 <br><br>
-
-<label id="number-label">*Age</label>
+<label id="number-label">*Age:</label>
 <input type="number" id="number" name="age" placeholder="Age" min="1" max="90" step="1" required/>
 <br><br>
+
 </div>
-<div id="dropdown">
-Witch option best describes your current role?
+
+<p id="dropdown">
+Which option best describes your current role?
     <select>
         <option value="option1">Student</option>
         <option value="option2">Part-Time Student</option>
@@ -35,7 +37,7 @@ Witch option best describes your current role?
         <option value="option5">Career shift</option>
         <option value="option6">Prefer not to say</option>
     </select>
-</div>
+</p>
 
 
 * How likely is that you would recommend freeCodeCamp to a friend?
@@ -57,17 +59,17 @@ Witch option best describes your current role?
 <input type="checkbox" name="checkbox" value="options11"> Wiki<br>
 <input type="checkbox" name="checkbox" value="option12"> Forum<br>
 <input type="checkbox" name="checkbox" value="option13"> Additional Courses<br><br>
-</div>
+
 Have Questions or comments? Let us know.
-
-<p>
+<br><br>
+<!--<p>-->
 <textarea rows="4" cols="50"></textarea>    
-</p>
-
-<p>
+<!--</p>-->
+<br>
+<!--<p>-->
 <input id="submit" type="submit" value="Submit">    
-</p>
-
+<!--</p>-->
+</div>
 </form>
 
 <br>
