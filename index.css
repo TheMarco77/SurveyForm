@@ -1,6 +1,6 @@
 
 body {
-    font-family: 'galada', cursive;
+    font-family: 'Muli', sans-serif;
     background-color: rgb(96, 23, 30);
     margin-top: -30px;
 }
@@ -16,7 +16,7 @@ body {
 
 #description {
     color: black;
-    font-family: 'Spirax', cursive;
+    font-family: 'Muli', sans-serif;
     margin: auto;
     text-align: center;
     padding-top: 10px;
@@ -47,7 +47,7 @@ body {
     border-style: solid;
     border-color: rgb(237, 195, 28);
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 50px;
 }
 
 div {
@@ -55,7 +55,7 @@ div {
 }
 
 p {
-    text-align: right;
+    text-align: center;
 }
 
 #name {
@@ -92,8 +92,14 @@ p {
     text-align: auto;
 }
 
+.options {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 1px;    
+}
+
+
 #submit {
     text-align: auto;
     background-color: rgb(66, 133, 244);
-
 }
