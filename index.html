@@ -11,30 +11,29 @@
 <h1 id="title">Support Your Mayor!<br>Richard Thomas<br></h1>
 
 <form action="#" method="post" id="survey-form" name="survey-form">
-<p id="description">Keep up with all the <strong>Mount Vernon City Hall,</strong><br>meetings, events, opportunities and their progress!<br>Your Voice is the vision of tomorrow.<br><br>
+<p id="description">Keep up with all the <strong>Mount Vernon City Hall</strong><br>meetings, events, opportunities and their progress!<br>Your Voice is the vision of tomorrow.<br><br><br>
 
 <div class="wrapper">
-    
+
 <label id="name-label">Name:</label>
 <input type="text" id="name" name="name" placeholder="Full Name (Required Field)" required/>
 <br><br>
 <label id="email-label">Email:</label>
 <input type="email" id="email" name="email" placeholder="Email (Required Field)" required/>
 <br><br>
-
 <label id="number-label">Age:</label>
 <input type="number" id="number" name="age" placeholder="Age (Required Field" min="1" max="90" step="1" required/>
 <br><br>
 </div>
 
-<br>
+<br><br>
 <p id="dropdown">
 What ZipCode do you live in Mount Vernon, New York?
     <select>
-        <option value="option1">10550</option>
-        <option value="option2">10551</option>
-        <option value="option3">10552</option>
-        <option value="option4">10553</option>
+        <option value="zipCode1">10550</option>
+        <option value="zipCode2">10551</option>
+        <option value="zipCode3">10552</option>
+        <option value="zipCode4">10553</option>
     </select>
 <br><br>
 What is your gender?
@@ -44,21 +43,44 @@ What is your gender?
 <br><br>
 </p>
 
-<div class="options">Updates you like to receive (Check all that apply)<br><br>
-<input type="checkbox" name="checkbox" value="option2"> Upcoming City Hall meetings<br>
-<input type="checkbox" name="checkbox" value="option3"> Results of City Hall meetings<br>
-<input type="checkbox" name="checkbox" value="option4"> City Development updates<br>
-<input type="checkbox" name="checkbox" value="option5"> Community service opportunities<br>
-<input type="checkbox" name="checkbox" value="option6"> Employment opportunities<br>
-<input type="checkbox" name="checkbox" value="option7"> Community events<br>
-<input type="checkbox" name="checkbox" value="option8"> Media Press conferences<br><br><br>
-</div>
-Have Questions or comments? Let us know.<br>
+<p>Check all updates you like to receive!<br>
+<label id="allUpdates">I want all the updates</label>
+<input type="checkbox" id="allUpdatesChecked" name="checkbox" value="allUpdates"/> 
 
-<textarea rows="4" cols="50"></textarea><br>   
+<div class="updates">
+
+<br><br>
+<label id="updateRequest1">Upcoming City Hall meetings</label>
+<input type="checkbox" id="updateContent1" name="checkbox" value="update1"/><br>
+
+<label id="updateRequest2">Results of City Hall meetings</label>
+<input type="checkbox" id="updateContent2" name="checkbox" value="update2"/><br>
+
+<label id="updateRequest3">City Development updates</label>
+<input type="checkbox" id="updateContent3" name="checkbox" value="update3"/><br>
+
+<label id="updateRequest4">Community service opportunities</label>
+<input type="checkbox" id="updateContent4" name="checkbox" value="update4"/><br>
+
+<label id="updateRequest5">Employment opportunities</label>
+<input type="checkbox" id="updateContent5" name="checkbox" value="update5"><br>
+
+<label id="updateRequest6">Community events</label>
+<input type="checkbox" id="updateContent6" name="checkbox" value="update6"><br>
+
+<label id="updateRequest7">Media Press conferences</label>
+<input type="checkbox" id="updateContent7" name="checkbox" value="update7">
+<br><br><br>
+</div>
+<br><br>
+<!-- Continue Below -->
+<div>
+<label id="questionConcern">Have Questions or comments? Let us know.</label>
+<br><br>
+<textarea rows="4" cols="50"></textarea><br><br>   
 
 <input id="submit" type="submit" value="Submit">    
-
+<br>
 </div>
 </form>
 </body>

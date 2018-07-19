@@ -21,14 +21,14 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
 }  
-/* Mobile */
+/* mobile */
 .wrapper {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr 1fr 1fr;
   grid-row-gap: 1px;
 }
 
-/* Desktop */
+/* desktop */
 @media screen and (min-width: 750px) {
     .wrapper {
         grid-template-columns: repeat(3, 1fr);
@@ -37,7 +37,8 @@ body {
 }
 
 #survey-form {
-    max-width: 80%;
+    max-width: 60%;
+    min-height: 70vh;
     color: rgb(0, 0, 0);
     background-color: white;
     font-family: 'Montserrat', sans-serif;
@@ -45,9 +46,8 @@ body {
     border-radius: 20px;
     border-style: solid;
     border-color: rgb(237, 195, 28);
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 30px;
-    min-height: 75vh;
 }
 
 div {
@@ -92,13 +92,96 @@ p {
     text-align: auto;
 }
 
-.options {
-    /*display: grid;*/
-    /*grid-template-columns: repeat(3, 1fr);*/
-    /*align-items: left;*/
-    /*grid-row-gap: 1px;*/    
+/* mobile */
+.updates {
+   display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 2px;    
 }
 
+/* desktop */
+@media screen and (min-width: 750px) {
+    .updates {
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 40px;
+        /*text-align: right;
+        align-items: right;*/
+    }
+}
+
+#allUpdates {
+    text-align: right;
+}
+
+#updateRequest1 {
+    display: grid;
+    text-align: right;
+    align-items: center;
+}
+
+#updateContent1 {
+    text-align: auto;
+}
+
+#updateRequest2 {
+    display: grid;
+    text-align: right;
+    align-items: center;
+}
+
+#updateContent2 {
+    text-align: center;
+}
+
+#updateRequest3 {
+    display: grid;
+    text-align: right;
+    align-items: center;
+}
+
+#updateContent3 {
+    text-align: auto;
+}
+
+#updateRequest4 {
+    display: grid;
+    text-align: right;
+    align-items: center;
+}
+
+#updateContent4 {
+    text-align: auto;
+}
+
+#updateRequest5 {
+    display: grid;
+    text-align: right;
+    align-items: center;
+}
+
+#updateContent5 {
+    text-align: center;
+}
+
+#updateRequest6 {
+    display: grid;
+    text-align: right;
+    align-items: center;
+}
+
+#updateContent6 {
+    text-align: center;
+}
+
+#updateRequest7 {
+    display: grid;
+    text-align: right;
+    align-items: center;
+}
+
+#updateContent7 {
+    text-align: center;
+}
 
 #submit {
     text-align: center;
