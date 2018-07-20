@@ -24,14 +24,14 @@ body {
 /* mobile */
 .wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-row-gap: 1px;
 }
 
 /* desktop */
 @media screen and (min-width: 750px) {
     .wrapper {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: 1fr;
         grid-column-gap: 15px;
     }
 }
@@ -92,21 +92,21 @@ p {
     text-align: auto;
 }
 
-/* mobile */
+/* mobile 
 .updates {
    display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 2px;
 }
 
-/* desktop */
+/* desktop 
 @media screen and (min-width: 750px) {
     .updates {
         grid-template-columns: 1fr 1fr;
         grid-row-gap: 5px;
         grid-column-gap: 5px;
     }
-}
+}*/
 
 #allUpdates {
     text-align: center;
@@ -116,7 +116,6 @@ p {
     display: grid;
     text-align: left;
     align-items: left;
-    
 }
 
 #updateContent1 {
