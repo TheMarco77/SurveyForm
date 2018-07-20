@@ -32,18 +32,18 @@ body {
 @media screen and (min-width: 750px) {
     .wrapper {
         grid-template-columns: repeat(3, 1fr);
-        grid-column-gap: 40px;
+        grid-column-gap: 15px;
     }
 }
 
 #survey-form {
-    max-width: 60%;
+    max-width: 80%;
     min-height: 70vh;
     color: rgb(0, 0, 0);
     background-color: white;
     font-family: 'Montserrat', sans-serif;
     margin: auto;
-    border-radius: 20px;
+    border-radius: 40px;
     border-style: solid;
     border-color: rgb(237, 195, 28);
     padding-top: 20px;
@@ -95,28 +95,28 @@ p {
 /* mobile */
 .updates {
    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-row-gap: 2px;    
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2px;
 }
 
 /* desktop */
 @media screen and (min-width: 750px) {
     .updates {
-        grid-template-columns: repeat(3, 1fr);
-        grid-column-gap: 40px;
-        /*text-align: right;
-        align-items: right;*/
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 5px;
+        grid-column-gap: 5px;
     }
 }
 
 #allUpdates {
-    text-align: right;
+    text-align: center;
 }
 
 #updateRequest1 {
     display: grid;
-    text-align: right;
-    align-items: center;
+    text-align: left;
+    align-items: left;
+    
 }
 
 #updateContent1 {
@@ -125,18 +125,18 @@ p {
 
 #updateRequest2 {
     display: grid;
-    text-align: right;
-    align-items: center;
+    text-align: left;
+    align-items: left;
 }
 
 #updateContent2 {
-    text-align: center;
+    text-align: auto;
 }
 
 #updateRequest3 {
     display: grid;
-    text-align: right;
-    align-items: center;
+    text-align: left;
+    align-items: left;
 }
 
 #updateContent3 {
@@ -145,7 +145,7 @@ p {
 
 #updateRequest4 {
     display: grid;
-    text-align: right;
+    text-align: left;
     align-items: center;
 }
 
@@ -155,32 +155,32 @@ p {
 
 #updateRequest5 {
     display: grid;
-    text-align: right;
+    text-align: left;
     align-items: center;
 }
 
 #updateContent5 {
-    text-align: center;
+    text-align: auto;
 }
 
 #updateRequest6 {
     display: grid;
-    text-align: right;
+    text-align: left;
     align-items: center;
 }
 
 #updateContent6 {
-    text-align: center;
+    text-align: auto;
 }
 
 #updateRequest7 {
     display: grid;
-    text-align: right;
+    text-align: left;
     align-items: center;
 }
 
 #updateContent7 {
-    text-align: center;
+    text-align: auto;
 }
 
 #submit {
