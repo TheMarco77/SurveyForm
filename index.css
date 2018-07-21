@@ -24,15 +24,18 @@ body {
 /* mobile */
 .wrapper {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(3, 1fr);
   grid-row-gap: 1px;
+  grid-column-gap: 10px;
 }
 
 /* desktop */
 @media screen and (min-width: 750px) {
     .wrapper {
-        grid-template-columns: 1fr;
-        grid-column-gap: 15px;
+        /*grid-template-columns: repeat(3, 1fr);*/
+        grid-template-columns: 1fr 1fr 1fr; 
+        grid-row-gap: 2px;
+        grid-column-gap: 10px;
     }
 }
 
@@ -55,7 +58,7 @@ div {
 }
 
 p {
-    text-align: center;
+    text-align: auto;
 }
 
 #name {
@@ -63,7 +66,7 @@ p {
 }
 
 #email {
-    text-align: left;
+    text-align: auto;
 }
 
 #number {
@@ -89,100 +92,24 @@ p {
 }
 
 #dropdown {
+    display: grid;
+    text-align: center;
+    align-items: center;
+}
+
+#allUpdates {
     text-align: auto;
 }
 
-/* mobile 
-.updates {
-   display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 2px;
-}
-
-/* desktop 
-@media screen and (min-width: 750px) {
-    .updates {
-        grid-template-columns: 1fr 1fr;
-        grid-row-gap: 5px;
-        grid-column-gap: 5px;
-    }
-}*/
-
-#allUpdates {
+#checkbox {
+    display: grid;
     text-align: center;
 }
 
-#updateRequest1 {
-    display: grid;
-    text-align: left;
-    align-items: left;
-}
-
-#updateContent1 {
-    text-align: auto;
-}
-
-#updateRequest2 {
-    display: grid;
-    text-align: left;
-    align-items: left;
-}
-
-#updateContent2 {
-    text-align: auto;
-}
-
-#updateRequest3 {
-    display: grid;
-    text-align: left;
-    align-items: left;
-}
-
-#updateContent3 {
-    text-align: auto;
-}
-
-#updateRequest4 {
-    display: grid;
-    text-align: left;
-    align-items: center;
-}
-
-#updateContent4 {
-    text-align: auto;
-}
-
-#updateRequest5 {
-    display: grid;
-    text-align: left;
-    align-items: center;
-}
-
-#updateContent5 {
-    text-align: auto;
-}
-
-#updateRequest6 {
-    display: grid;
-    text-align: left;
-    align-items: center;
-}
-
-#updateContent6 {
-    text-align: auto;
-}
-
-#updateRequest7 {
-    display: grid;
-    text-align: left;
-    align-items: center;
-}
-
-#updateContent7 {
+#labelName {
     text-align: auto;
 }
 
 #submit {
     text-align: center;
-    background-color: rgb(66, 133, 244);
-}
+    }

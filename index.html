@@ -7,77 +7,78 @@
         <!--'OLD CDN LINK'<script src="https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js"></script>-->
     </head>
 <body>
-
 <h1 id="title">Support Your Mayor!<br>Richard Thomas<br></h1>
-
 <form action="#" method="post" id="survey-form" name="survey-form">
-<p id="description">Keep up with all the <strong>Mount Vernon City Hall</strong><br>meetings, events, opportunities and their progress!<br>Your Voice is the vision of tomorrow.<br><br><br>
+
+<p id="description">Keep up with all the <strong>Mount Vernon City Hall</strong> meetings, events, opportunities and their progress!
+<br>Your Voice is the vision of tomorrow.<br><br><br>
 
 <div class="wrapper">
 
 <label id="name-label">Name:</label>
-<input type="text" id="name" name="name" placeholder="Full Name (Required Field)" required/>
-<br><br>
+<input type="text" id="name" name="name" placeholder="Full Name (Required Field)" required/><br><br>
 <label id="email-label">Email:</label>
-<input type="email" id="email" name="email" placeholder="Email (Required Field)" required/>
-<br><br>
+<input type="email" id="email" name="email" placeholder="Email (Required Field)" required/><br><br>
 <label id="number-label">Age:</label>
-<input type="number" id="number" name="age" placeholder="Age (Required Field" min="1" max="90" step="1" required/>
-<br><br>
+<input type="number" id="number" name="age" placeholder="Age (Required Field)" min="1" max="120" step="1" required/><br><br>
 
-<br><br>
-<p id="dropdown">
+<div id="dropdown">
+<br>
 What ZipCode do you live in Mount Vernon, New York?
-    <select>
-        <option value="zipCode1">10550</option>
-        <option value="zipCode2">10551</option>
-        <option value="zipCode3">10552</option>
-        <option value="zipCode4">10553</option>
-    </select>
+<select>
+    <option value="zipCode1">10550</option>
+    <option value="zipCode2">10551</option>
+    <option value="zipCode3">10552</option>
+    <option value="zipCode4">10553</option>
+</select>
 <br><br>
 What is your gender?
-<input type="radio" name="radio-attribute" value="opinion">Female
-<input type="radio" name="radio-attribute" value="opinion"> Male
-<input type="radio" name="radio-attribute" value="opinion"> Prefer not to say.
-<br><br>
-</p>
+    <input type="radio" name="radio-attribute" value="opinion"/>
+    <label id="gender">Female</label>
+    <input type="radio" name="radio-attribute" value="opinion">
+    <label id="gender">Male</label>
+    <input type="radio" name="radio-attribute" value="opinion">
+    <label id="gender">Prefer not to say</label>
 
-<p>Check all updates you would like to receive!<br>
-<input type="checkbox" id="allUpdatesChecked" name="checkbox" value="allUpdates"/>
+<br><br>
+
+Check all updates you would like to receive!<br>
+</div>    
+
+<div>
+<input type="checkbox" id="checkbox" name="checkbox" value="allUpdates"/>
 <label id="allUpdates">I want all the updates</label>
- 
-<br><br>
 
-<input type="checkbox" id="updateContent1" name="checkbox" value="update1"/>
-<label id="updateRequest1">Upcoming City Hall meetings</label>
+<input type="checkbox" id="checkbox" name="checkbox" value="update1"/>
+<label id="labelName">Upcoming City Hall meetings</label>
 
-<input type="checkbox" id="updateContent2" name="checkbox" value="update2"/>
-<label id="updateRequest2">Results of City Hall meetings</label>
+<input type="checkbox" id="checkbox" name="checkbox" value="update2"/>
+<label id="labelName">Results of City Hall meetings</label>
 
-<input type="checkbox" id="updateContent3" name="checkbox" value="update3"/>
-<label id="updateRequest3">City Development updates</label>
+<input type="checkbox" id="checkbox" name="checkbox" value="update3"/>
+<label id="labelName">City Development updates</label>
 
-<input type="checkbox" id="updateContent4" name="checkbox" value="update4"/>
-<label id="updateRequest4">Community service opportunities</label>
+<input type="checkbox" id="checkbox" name="checkbox" value="update4"/>
+<label id="labelName">Community service opportunities</label>
 
-<input type="checkbox" id="updateContent5" name="checkbox" value="update5"/>
-<label id="updateRequest5">Employment opportunities</label>
+<input type="checkbox" id="checkbox" name="checkbox" value="update5"/>
+<label id="labelName">Employment opportunities</label>
 
-<input type="checkbox" id="updateContent6" name="checkbox" value="update6"/>
-<label id="updateRequest6">Community events</label>
+<input type="checkbox" id="checkbox" name="checkbox" value="update6"/>
+<label id="labelName">Community events</label>
 
-<input type="checkbox" id="updateContent7" name="checkbox" value="update7"/>
-<label id="updateRequest7">Media Press conferences</label>
+<input type="checkbox" id="checkbox" name="checkbox" value="update7"/>
+<label id="labelName">Media Press conferences</label>
+</div>
 
 <br>
-<!-- Continue Below -->
-
 <p>Additional comments or concerns?<br>Let us know.</p>
 <br>
 <textarea rows="4" cols="50"></textarea><br><br>   
 
 <input id="submit" type="submit" value="Submit">    
 <br>
+
 </div>
 </form>
 </body>
