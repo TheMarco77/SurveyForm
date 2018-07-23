@@ -37,8 +37,8 @@ body {
   grid-column-gap: 8px;
 }
 
-/* desktop device monitor 750px and larger */
-@media only screen and (min-width: 750px) {
+/* desktop device monitor 1400px and larger */
+@media only screen and (min-width: 1400px) {
     .wrapper { 
         display: grid;
         grid-template-columns: repeat(5, 1fr);
@@ -48,8 +48,8 @@ body {
     }
 }
 
-/* mobile device less than 750px */
-@media only screen and (max-width: 750px) {
+/* mobile device less than 1400px */
+@media only screen and (max-width: 1400px) {
     .contact {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
