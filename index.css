@@ -23,7 +23,12 @@ body {
     padding-bottom: 10px;
 }
 
-/* mobile */
+#dropdown {
+    align-items: center;
+    text-align: center;
+}
+
+/* mobile device less than 750px */
 .wrapper {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -32,8 +37,27 @@ body {
   grid-column-gap: 8px;
 }
 
-/* desktop */
+/* desktop device monitor 750px and larger */
+@media only screen and (min-width: 750px) {
+    .wrapper { 
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: 2fr 8fr;
+        grid-row-gap: 1px;
+        grid-column-gap: 8px;
+    }
+}
 
+/* mobile device less than 750px */
+@media only screen and (max-width: 750px) {
+    .contact {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr 1fr;
+        grid-row-gap: 1px;
+        background-color: yellowgreen;
+    }
+}
 
 #title {
     grid-row: 1 / 2;
