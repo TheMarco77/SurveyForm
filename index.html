@@ -3,7 +3,7 @@
     <head>
         <title>Survey Form</title>
         <link rel="stylesheet" href="index.css"/>
-        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
         <!--'OLD CDN LINK'<script src="https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js"></script>-->
     </head>
 
@@ -11,8 +11,8 @@
 <body>
         
 <form id="survey-form" action="#" method="post" name="survey-form">
-        <h1 id="title">Support Your Mayor! Richard Thomas</h1>
     <div class="form-intro">
+        <h1 id="title">Support Your Mayor! Richard Thomas</h1>
         <p id="description">Keep up with all the <strong>Mount Vernon City Hall</strong> meetings, events, opportunities and their progress!
         <p>Your <strong>Voice</strong> is the vision of tomorrow.</p>
     </div>
@@ -35,13 +35,13 @@
         <option value="zipCode4">10553</option>
     </select>
 </div> 
-
-<p>What is your gender?</p>
+<div class="gender">
+    <p>What is your gender?</p>
     <input type="radio" name="radio-attribute" value="opinion"/>
     <label id="gender">Female</label>
     <input type="radio" name="radio-attribute" value="opinion">
     <label id="gender">Male</label>
-
+</div>
     <div class="update-title">
         <p>Check all updates you would like to receive!</p>
         <input type="checkbox" id="checkbox" name="checkbox" value="allUpdates"/>
@@ -80,12 +80,13 @@
         </li>
     </ul>
 </div>
-<p>Additional comments or concerns?</p><p>Let us know.</p>
+<div class="comments">
+    <p>Additional comments or concerns?</p><p>Let us know.</p>
 
-<textarea rows="5" cols="30"></textarea><br>
+    <textarea rows="5" cols="30"></textarea><br>
 
-<div>
-<input id="submit" type="submit" value="Submit">    
+
+    <input id="submit" type="submit" value="Submit">    
 </div>
 
 </form>
