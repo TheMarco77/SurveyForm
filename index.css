@@ -23,6 +23,12 @@ span {
   color: var(--main-red);
 }
 
+#description {
+  align-content: center;
+  width: 95%;
+
+}
+
 textarea {
   margin-bottom: 15px;
 }
@@ -100,6 +106,22 @@ form {
 .contact input {
   width: 200px;
 }
+
+/*@media only screen and (min-width: 1382px) {
+  form {
+    height: 95%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 2fr 1fr 1fr;
+    width: 75%;
+    grid-template-areas: ". intro intro ."
+    ". zipcode zipcode ."
+    ". contact gender ."
+    ". update-title update-title ."
+    ". updates updates ."
+    ". comments comments .";
+  }  
+}*/
 
 @media only screen and (min-width: 1400px) {
   form {
